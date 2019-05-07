@@ -84,7 +84,7 @@ class CustomSearch extends Extension
         }
 
         if (class_exists($controllerName)) {
-            $obj = Object::create($controllerName);
+            $obj = SS_Object::create($controllerName);
 
             if ($obj instanceof SiteTree && $page = $controllerName::get()->first()) {
                 return ModelAsController::controller_for($page);
