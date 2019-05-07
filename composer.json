@@ -1,5 +1,5 @@
 {
-    "name": "zirak/searchable-dataobjects",
+    "name": "solout/searchable-dataobjects",
     "description": "This module adds DataObjects to frontend search",
     "type": "silverstripe-module",
     "keywords": ["silverstripe", "dataobject", "search"],
